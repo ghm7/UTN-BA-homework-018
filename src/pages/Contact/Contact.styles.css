@@ -1,0 +1,3 @@
+.remaining-space {
+  height: calc(100dvh - var(--navbar-h));
+}

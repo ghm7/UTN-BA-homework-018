@@ -1,0 +1,26 @@
+.portrait-background {
+  background: linear-gradient(
+      270deg,
+      rgba(36, 36, 36, 1) 0%,
+      rgba(36, 36, 36, 0.95) 40%,
+      rgba(36, 36, 36, 0.1) 100%
+    ),
+    /* url('/assets/images/about/portrait.png'); */
+      url('../../assets/images/about/portrait.png');
+  /* background-image: url('/assets/images/about/portrait.png'); */
+  background-size: 75%;
+  background-repeat: no-repeat;
+  /* background-position-y: 2.5rem; */
+  background-position-y: center;
+
+  &::after {
+    content: '';
+    width: 20px;
+    height: 34rem;
+    background-color: #242424;
+    position: absolute;
+    left: 59%;
+    top: 6rem;
+    z-index: -1;
+  }
+}
