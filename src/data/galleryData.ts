@@ -1,3 +1,85 @@
+import hymc1 from '../assets/images/hombre_y_mujer_cactus/1.png';
+import hymc2 from '../assets/images/hombre_y_mujer_cactus/2.png';
+import hymc3 from '../assets/images/hombre_y_mujer_cactus/3.png';
+import hymc4 from '../assets/images/hombre_y_mujer_cactus/4.png';
+import hymc5 from '../assets/images/hombre_y_mujer_cactus/5.png';
+import hymc6 from '../assets/images/hombre_y_mujer_cactus/6.png';
+import hymc7 from '../assets/images/hombre_y_mujer_cactus/7.png';
+import hymc8 from '../assets/images/hombre_y_mujer_cactus/8.png';
+import hymc9 from '../assets/images/hombre_y_mujer_cactus/9.png';
+import hymc10 from '../assets/images/hombre_y_mujer_cactus/10.png';
+import hsun1 from '../assets/images/hombre_sobre_una_nube/1.jpeg';
+import hsun2 from '../assets/images/hombre_sobre_una_nube/2.jpeg';
+import hsun3 from '../assets/images/hombre_sobre_una_nube/3.jpeg';
+import hsun4 from '../assets/images/hombre_sobre_una_nube/4.jpeg';
+import hsun5 from '../assets/images/hombre_sobre_una_nube/5.jpeg';
+import hsun6 from '../assets/images/hombre_sobre_una_nube/6.jpeg';
+import hsun7 from '../assets/images/hombre_sobre_una_nube/7.jpeg';
+import hsun8 from '../assets/images/hombre_sobre_una_nube/8.jpeg';
+import hrd1 from '../assets/images/hombre_rana_desconcentrado/1.jpeg';
+import hrd2 from '../assets/images/hombre_rana_desconcentrado/2.jpeg';
+import hrd3 from '../assets/images/hombre_rana_desconcentrado/3.jpeg';
+import hrd4 from '../assets/images/hombre_rana_desconcentrado/4.jpeg';
+import hrd5 from '../assets/images/hombre_rana_desconcentrado/5.jpeg';
+import hrd6 from '../assets/images/hombre_rana_desconcentrado/6.jpeg';
+import hrd7 from '../assets/images/hombre_rana_desconcentrado/7.jpeg';
+import hrd8 from '../assets/images/hombre_rana_desconcentrado/8.jpeg';
+import hrd9 from '../assets/images/hombre_rana_desconcentrado/9.jpeg';
+import hrd10 from '../assets/images/hombre_rana_desconcentrado/10.jpeg';
+import hcoelm1 from '../assets/images/hombre_con_ojo_en_la_mano/1.png';
+import hcoelm2 from '../assets/images/hombre_con_ojo_en_la_mano/2.png';
+import hcoelm3 from '../assets/images/hombre_con_ojo_en_la_mano/3.png';
+import hcoelm4 from '../assets/images/hombre_con_ojo_en_la_mano/4.jpeg';
+import hcoelm5 from '../assets/images/hombre_con_ojo_en_la_mano/5.jpeg';
+import hcoelm6 from '../assets/images/hombre_con_ojo_en_la_mano/6.jpeg';
+import hcoelm7 from '../assets/images/hombre_con_ojo_en_la_mano/7.jpeg';
+import hcoelm8 from '../assets/images/hombre_con_ojo_en_la_mano/8.jpeg';
+import hcoelm9 from '../assets/images/hombre_con_ojo_en_la_mano/9.jpeg';
+import hcoelm10 from '../assets/images/hombre_con_ojo_en_la_mano/10.jpeg';
+import h1 from '../assets/images/hilo/1.jpeg';
+import h2 from '../assets/images/hilo/2.jpeg';
+import h3 from '../assets/images/hilo/3.jpeg';
+import h4 from '../assets/images/hilo/4.jpeg';
+import h5 from '../assets/images/hilo/5.jpeg';
+import h6 from '../assets/images/hilo/6.jpeg';
+import h7 from '../assets/images/hilo/7.jpeg';
+import cf1 from '../assets/images/casas_flotantes/1.png';
+import cf2 from '../assets/images/casas_flotantes/2.png';
+import cf3 from '../assets/images/casas_flotantes/3.png';
+import cf4 from '../assets/images/casas_flotantes/4.png';
+import cf5 from '../assets/images/casas_flotantes/5.png';
+import cf6 from '../assets/images/casas_flotantes/6.png';
+import cf7 from '../assets/images/casas_flotantes/7.png';
+import cf8 from '../assets/images/casas_flotantes/8.png';
+import cf9 from '../assets/images/casas_flotantes/9.png';
+import cf10 from '../assets/images/casas_flotantes/10.png';
+import cda1 from '../assets/images/castillos_de_arena/1.png';
+import cda2 from '../assets/images/castillos_de_arena/2.png';
+import cda3 from '../assets/images/castillos_de_arena/3.png';
+import cda4 from '../assets/images/castillos_de_arena/4.png';
+import cda5 from '../assets/images/castillos_de_arena/5.png';
+import cda6 from '../assets/images/castillos_de_arena/6.png';
+import cda7 from '../assets/images/castillos_de_arena/7.png';
+import cda8 from '../assets/images/castillos_de_arena/8.png';
+import cda9 from '../assets/images/castillos_de_arena/9.png';
+import cda10 from '../assets/images/castillos_de_arena/10.png';
+import aero1 from '../assets/images/aerostato/1.jpg';
+import aero2 from '../assets/images/aerostato/2.jpeg';
+import aero3 from '../assets/images/aerostato/3.jpeg';
+import aero4 from '../assets/images/aerostato/4.jpeg';
+import aero5 from '../assets/images/aerostato/5.png';
+import aero6 from '../assets/images/aerostato/6.png';
+import aero7 from '../assets/images/aerostato/7.png';
+import an1 from '../assets/images/animales-nocturnos/1.jpeg';
+import an2 from '../assets/images/animales-nocturnos/2.jpeg';
+import an3 from '../assets/images/animales-nocturnos/3.jpeg';
+import an4 from '../assets/images/animales-nocturnos/4.jpg';
+import an5 from '../assets/images/animales-nocturnos/5.jpeg';
+import an6 from '../assets/images/animales-nocturnos/6.jpeg';
+import an7 from '../assets/images/animales-nocturnos/7.jpeg';
+import an8 from '../assets/images/animales-nocturnos/8.jpg';
+import an9 from '../assets/images/animales-nocturnos/9.jpg';
+import an10 from '../assets/images/animales-nocturnos/10.jpg';
 interface IImages {
   path: string;
   altImg: string;
@@ -15,61 +97,61 @@ const images: Array<IImagesGallery> = [
     id: 'hombre_y_mujer_cactus',
     gallery: [
       {
-        path: '/assets/images/hombre_y_mujer_cactus/1.png',
+        path: hymc1,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/2.png',
+        path: hymc2,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/3.png',
+        path: hymc3,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/4.png',
+        path: hymc4,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/5.png',
+        path: hymc5,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/6.png',
+        path: hymc6,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/7.png',
+        path: hymc7,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/8.png',
+        path: hymc8,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/9.png',
+        path: hymc9,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
       },
       {
-        path: '/assets/images/hombre_y_mujer_cactus/10.png',
+        path: hymc10,
         altImg: 'Hombre y mujer cactus',
         title: 'Hombre y mujer cactus',
         id: 'hombre_y_mujer_cactus',
@@ -80,49 +162,49 @@ const images: Array<IImagesGallery> = [
     id: 'hombre_sobre_una_nube',
     gallery: [
       {
-        path: '/assets/images/hombre_sobre_una_nube/1.jpeg',
+        path: hsun1,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/2.jpeg',
+        path: hsun2,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/3.jpeg',
+        path: hsun3,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/4.jpeg',
+        path: hsun4,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/5.jpeg',
+        path: hsun5,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/6.jpeg',
+        path: hsun6,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/7.jpeg',
+        path: hsun7,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
       },
       {
-        path: '/assets/images/hombre_sobre_una_nube/8.jpeg',
+        path: hsun8,
         altImg: 'Hombre sobre una nube',
         title: 'Hombre sobre una nube',
         id: 'hombre_sobre_una_nube',
@@ -133,259 +215,126 @@ const images: Array<IImagesGallery> = [
     id: 'hombre_rana_desconcentrado',
     gallery: [
       {
-        path: '/assets/images/hombre_rana_desconcentrado/1.jpeg',
+        path: hrd1,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/2.jpeg',
+        path: hrd2,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/3.jpeg',
+        path: hrd3,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/4.jpeg',
+        path: hrd4,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/5.jpeg',
+        path: hrd5,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/6.jpeg',
+        path: hrd6,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/6.jpeg',
+        path: hrd7,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/7.jpeg',
+        path: hrd8,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/8.jpeg',
+        path: hrd9,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
       {
-        path: '/assets/images/hombre_rana_desconcentrado/9.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/10.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/11.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/12.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/13.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/14.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/15.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/16.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/17.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/18.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/19.jpeg',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/20.png',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/21.png',
-        altImg: 'Hombre rana desconcentrado',
-        title: 'Hombre rana desconcentrado',
-        id: 'hombre_rana_desconcentrado',
-      },
-      {
-        path: '/assets/images/hombre_rana_desconcentrado/22.png',
+        path: hrd10,
         altImg: 'Hombre rana desconcentrado',
         title: 'Hombre rana desconcentrado',
         id: 'hombre_rana_desconcentrado',
       },
     ],
   },
-
   {
     id: 'hombre_con_ojo_en_la_mano',
     gallery: [
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/1.png',
+        path: hcoelm1,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/2.png',
+        path: hcoelm2,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/3.png',
+        path: hcoelm3,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/4.jpeg',
+        path: hcoelm4,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/5.jpeg',
+        path: hcoelm5,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/6.jpeg',
+        path: hcoelm6,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/7.jpeg',
+        path: hcoelm7,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/8.jpeg',
+        path: hcoelm8,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/9.jpeg',
+        path: hcoelm9,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
       },
       {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/10.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/11.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/11.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/12.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/13.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/14.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/15.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/16.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/17.jpeg',
-        altImg: 'Hombre con ojo en la mano',
-        title: 'Hombre con ojo en la mano',
-        id: 'hombre_con_ojo_en_la_mano',
-      },
-      {
-        path: '/assets/images/hombre_con_ojo_en_la_mano/18.jpeg',
+        path: hcoelm10,
         altImg: 'Hombre con ojo en la mano',
         title: 'Hombre con ojo en la mano',
         id: 'hombre_con_ojo_en_la_mano',
@@ -396,43 +345,43 @@ const images: Array<IImagesGallery> = [
     id: 'hilo',
     gallery: [
       {
-        path: '/assets/images/hilo/1.jpeg',
+        path: h1,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
       },
       {
-        path: '/assets/images/hilo/2.jpeg',
+        path: h2,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
       },
       {
-        path: '/assets/images/hilo/3.jpeg',
+        path: h3,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
       },
       {
-        path: '/assets/images/hilo/4.jpeg',
+        path: h4,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
       },
       {
-        path: '/assets/images/hilo/5.jpeg',
+        path: h5,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
       },
       {
-        path: '/assets/images/hilo/6.jpeg',
+        path: h6,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
       },
       {
-        path: '/assets/images/hilo/7.jpeg',
+        path: h7,
         altImg: 'Hilo',
         title: 'Hilo',
         id: 'hilo',
@@ -443,103 +392,61 @@ const images: Array<IImagesGallery> = [
     id: 'casas_flotantes',
     gallery: [
       {
-        path: '/assets/images/casas_flotantes/1.png',
+        path: cf1,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/2.png',
+        path: cf2,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/3.png',
+        path: cf3,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/4.png',
+        path: cf4,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/5.png',
+        path: cf5,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/6.png',
+        path: cf6,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/7.png',
+        path: cf7,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/8.png',
+        path: cf8,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/9.png',
+        path: cf9,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
       },
       {
-        path: '/assets/images/casas_flotantes/10.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/11.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/12.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/13.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/14.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/15.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/16.png',
-        altImg: 'Casas flotantes',
-        title: 'Casas flotantes',
-        id: 'casas_flotantes',
-      },
-      {
-        path: '/assets/images/casas_flotantes/17.png',
+        path: cf10,
         altImg: 'Casas flotantes',
         title: 'Casas flotantes',
         id: 'casas_flotantes',
@@ -550,211 +457,61 @@ const images: Array<IImagesGallery> = [
     id: 'castillos_de_arena',
     gallery: [
       {
-        path: '/assets/images/castillos_de_arena/1.png',
+        path: cda1,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/2.png',
+        path: cda2,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/3.png',
+        path: cda3,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/4.png',
+        path: cda4,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/5.png',
+        path: cda5,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/6.png',
+        path: cda6,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/7.png',
+        path: cda7,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/8.png',
+        path: cda8,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/9.png',
+        path: cda9,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
       },
       {
-        path: '/assets/images/castillos_de_arena/10.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/11.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/12.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/13.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/14.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/15.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/16.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/17.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/18.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/19.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/20.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/21.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/22.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/23.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/24.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/25.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/26.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/26.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/27.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/28.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/29.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/30.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/31.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/32.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/33.png',
-        altImg: 'Castillos de arena',
-        title: 'Castillos de arena',
-        id: 'castillos_de_arena',
-      },
-      {
-        path: '/assets/images/castillos_de_arena/34.png',
+        path: cda10,
         altImg: 'Castillos de arena',
         title: 'Castillos de arena',
         id: 'castillos_de_arena',
@@ -765,43 +522,43 @@ const images: Array<IImagesGallery> = [
     id: 'aerostato',
     gallery: [
       {
-        path: '/assets/images/aerostato/1.jpg',
+        path: aero1,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
       },
       {
-        path: '/assets/images/aerostato/2.jpeg',
+        path: aero2,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
       },
       {
-        path: '/assets/images/aerostato/3.jpeg',
+        path: aero3,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
       },
       {
-        path: '/assets/images/aerostato/4.jpeg',
+        path: aero4,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
       },
       {
-        path: '/assets/images/aerostato/5.png',
+        path: aero5,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
       },
       {
-        path: '/assets/images/aerostato/6.png',
+        path: aero6,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
       },
       {
-        path: '/assets/images/aerostato/7.png',
+        path: aero7,
         altImg: 'Aerostato',
         title: 'Aerostato',
         id: 'aerostato',
@@ -812,67 +569,61 @@ const images: Array<IImagesGallery> = [
     id: 'animales-nocturnos',
     gallery: [
       {
-        path: '/assets/images/animales-nocturnos/1.jpeg',
+        path: an1,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/2.jpeg',
+        path: an2,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/3.jpeg',
+        path: an3,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/4.jpg',
+        path: an4,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/5.jpeg',
+        path: an5,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/6.jpeg',
+        path: an6,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/7.jpeg',
+        path: an7,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/8.jpg',
+        path: an8,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/9.jpg',
+        path: an9,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
       },
       {
-        path: '/assets/images/animales-nocturnos/10.jpg',
-        altImg: 'Animales nocturnos',
-        title: 'Animales nocturnos',
-        id: 'animales-nocturnos',
-      },
-      {
-        path: '/assets/images/animales-nocturnos/11.jpg',
+        path: an10,
         altImg: 'Animales nocturnos',
         title: 'Animales nocturnos',
         id: 'animales-nocturnos',
