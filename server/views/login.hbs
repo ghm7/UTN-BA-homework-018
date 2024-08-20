@@ -1,16 +1,21 @@
-<html lang='en'>
-  <head>
-    <meta charset='UTF-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <title>{{title}}</title>
-  </head>
-  <body>
-    <h1>{{title}}</h1>
-    <p>This page is rendered from the server</p>
-    <ul>
-      <li>
-        <a href='/'>Home</a>
-      </li>
-    </ul>
-  </body>
-</html>
+<div class='flex flex-col justify-center items-center w-[full] h-[100dvh]'>
+  <p class='text-6xl'>Admin Login</p>
+
+  <form action='post' class='mt-[2rem] flex flex-col gap-8'>
+    <div class='flex flex-col gap-3'>
+      <div class='grid grid-cols-[100px_minmax(300px,_1fr)]'>
+        <label for='user'>Username</label>
+        <input type='text' name='user' />
+      </div>
+      <div class='grid grid-cols-[100px_minmax(300px,_1fr)]'>
+        <label for='password'>Password</label>
+        <input type='password' name='user' />
+      </div>
+    </div>
+
+    <button
+      type='submit'
+      class='w-[40%] m-auto bg-[#595959] py-2 rounded-lg hover:bg-[#959595]'
+    >Login</button>
+  </form>
+</div>

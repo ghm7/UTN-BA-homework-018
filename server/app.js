@@ -5,11 +5,10 @@ const path = require('path');
 const app = express();
 const port = 5000;
 
-// Set up Handlebars as the templating engine
 app.engine(
   'hbs',
   engine({
-    extname: '.hbs', // Specify the extension as .hbs
+    extname: '.hbs',
     defaultLayout: 'main',
     layoutsDir: path.join(__dirname, 'views', 'layouts'),
   })
@@ -19,7 +18,10 @@ app.use(express.static(path.join(__dirname, '../client/build')));
 
 // Handlebars routes
 app.get('/login', (req, res) => {
-  res.render('login', { title: 'SSR' });
+  res.render('login', { title: 'Admin Login' });
+});
+app.get('/admin', (req, res) => {
+  res.render('admin', { title: 'Admin Login' });
 });
 
 // React app route
