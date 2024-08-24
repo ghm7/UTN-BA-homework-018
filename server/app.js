@@ -1,11 +1,14 @@
 const express = require('express');
 const session = require('express-session');
+const morgan = require('morgan');
 const { engine } = require('express-handlebars');
 const path = require('path');
 const index = require('./routes/index.routes');
 
 const app = express();
 const port = 5000;
+
+app.use(morgan('dev'));
 
 app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 } }));
 app.use(express.json());
