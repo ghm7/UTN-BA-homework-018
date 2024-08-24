@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const checkAuth = require('../lib/checkAuth');
 const usersModel = require('../models/usersModel');
 
 router.get('/', (req, res) => {
@@ -11,13 +12,14 @@ router.post('/', async function (req, res, next) {
     const password = req.body.password;
 
     const data = await usersModel.getUser(user, password);
-    if (data != undefined) {
-      res.send(data);
+
+    if (data != undefined && checkAuth(data, req.body)) {
+      // res.send(data);
       req.session.id = data.id;
       req.session.user = data.user;
-      // res.redirect('/admin');
+      res.redirect('/admin');
     } else {
-      res.render('admin');
+      res.redirect('/');
     }
   } catch (error) {
     console.log(error);

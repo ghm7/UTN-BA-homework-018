@@ -7,6 +7,8 @@ const index = require('./routes/index.routes');
 const app = express();
 const port = 5000;
 
+app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 } }));
+app.use(express.json());
 app.engine(
   'hbs',
   engine({
@@ -16,16 +18,9 @@ app.engine(
   })
 );
 app.set('view engine', 'hbs');
-app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 } }));
 app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
 app.use(express.static(path.join(__dirname, '../client/build')));
-
 app.use('/', index);
-
-app.get('/admin', (req, res) => {
-  res.render('admin', { title: 'Admin Login' });
-});
 
 // React app route
 app.get('*', (req, res) => {
@@ -35,3 +30,5 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+module.exports = app;
