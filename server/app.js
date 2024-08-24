@@ -2,7 +2,7 @@ const express = require('express');
 const session = require('express-session');
 const { engine } = require('express-handlebars');
 const path = require('path');
-const usersModel = require('./models/usersModel');
+const index = require('./routes/index.routes');
 
 const app = express();
 const port = 5000;
@@ -16,33 +16,12 @@ app.engine(
   })
 );
 app.set('view engine', 'hbs');
-app.use(session({ secret: 'SECRET_WORD', cookie: { maxAge: 60000 } }));
+app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 } }));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../client/build')));
 
-// Handlebars routes
-app.get('/login', (req, res) => {
-  res.render('login', { title: 'Admin Login' });
-});
-
-app.post('/login', async function (req, res, next) {
-  try {
-    const user = req.body.user;
-    const password = req.body.password;
-
-    const data = await usersModel.getUser(user, password);
-    if (data != undefined) {
-      req.session.id = data.id;
-      req.session.user = data.user;
-      res.redirect('/admin');
-    } else {
-      res.render('admin');
-    }
-  } catch (error) {
-    console.log(error);
-  }
-});
+app.use('/', index);
 
 app.get('/admin', (req, res) => {
   res.render('admin', { title: 'Admin Login' });
