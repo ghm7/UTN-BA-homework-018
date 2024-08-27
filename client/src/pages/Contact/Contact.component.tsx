@@ -44,13 +44,13 @@ export default function Contact(): ReactElement {
       <div className="flex flex-col justify-center items-center gap-[2rem]">
         <p className="text-9xl">Contacto</p>
         <div className="flex gap-8">
-          <a href="https://www.instagram.com/au9usto2024">
+          <a href="https://www.instagram.com">
             <Instagram className="w-10 scale-[1.5]" />
           </a>
-          <a href="https://www.facebook.com/share/qjhQjaP3D5ZXS3Pe/?mibextid=qi2Omg">
+          <a href="https://www.facebook.com">
             <Facebook className="w-10 scale-[1.5]" />
           </a>
-          <a href="mailto:au9usto.ia@gmail.com">
+          <a href="mailto:gabriel.pozzi.agote@gmail.com">
             <Mail className="w-10 scale-[1.5]" />
           </a>
         </div>
