@@ -10,42 +10,54 @@ export default function About(): ReactElement {
         <div></div>
         <div className="flex flex-col gap-5 leading-5 pt-10 pb-10 ml-5">
           <p>
-            Augusto Pozzi Luzardo fue durante 10 años humorista gráfico. Publicó
-            en las revistas EL DEDO y GUAMBIA, en el diario LA HORA, en las
-            revistas EL PAPUS, BALALAIKA y EL CUERVO en España, mientras vivió
-            allí y en los principales semanarios montevideanos de la década del
-            80 (OPINAR, AQUÍ, LAS BASES, ORSAI, PROHIBIDA, LENGUA LARGA, EL TIC
-            TAC, entre otros). Ya de regreso un libro salió a la luz:
-            &lt;&lt;JESÚS, QUÉ CRISIS!!!&gt;&gt; que recopilaba los chistes de
-            GUAMBIA.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            provident nesciunt voluptatem minus voluptatibus accusamus
+            recusandae quam obcaecati aliquid esse consequuntur modi alias eius
+            iusto, impedit molestiae vel eum cumque. Magni error cum corporis
+            nemo explicabo distinctio? Commodi cupiditate, perspiciatis earum
+            modi minima voluptas ad quam eligendi vero veniam, nesciunt harum
+            dolore cumque fugit recusandae officia aperiam architecto
+            asperiores! Voluptas! Dignissimos minus debitis laboriosam in iure
+            quia ipsa ex quae quo, perferendis quaerat impedit dolor enim fuga
+            ratione laudantium. Eos laboriosam nostrum officiis inventore rerum
+            hic molestiae est quam nobis.
           </p>
           <p>
-            Años después entró al Taller de dibujo de OSCAR LARROCA, el conocido
-            y premiado artista plástico uruguayo, en la ciudad de Florida. Al
-            poco tiempo de haber ingresado al taller, montó una exposición en el
-            CENTRO CULTURAL de esa localidad. La exposición en sí eran
-            básicamente grafitos y algún que otro dibujo hecho a lápiz del
-            cuerpo desnudo de quien pasaría a ser, tiempo después su segunda y
-            última esposa.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut iusto
+            officiis eveniet, voluptas necessitatibus, natus autem ipsam officia
+            soluta qui unde quis itaque excepturi magnam tenetur ab dolorem.
+            Facilis, repudiandae!
           </p>
           <p>
-            La exposición llevó por nombre EL/LA. Fue el propio OSCAR LARROCA
-            quien escribió el folleto y también el encargo de la magistral
-            colgada, con paneles de cartón y vidrio, con espacios vacíos entre
-            los dibujos, creando todo un recorrido lineal, pero a la vez
-            sinuoso, que guiaban a los ojos por el recorrido de toda la muestra.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            asperiores quos praesentium rerum autem maxime exercitationem ut
+            inventore consequatur earum molestias veritatis hic ex, fugiat,
+            nostrum officiis ab quasi ipsum? Nam dolor officia aut quae, sint,
+            ipsa adipisci sequi quasi aliquam placeat rem dolorum delectus
+            consectetur similique, minima ab in. Delectus quaerat necessitatibus
+            iure nostrum illum odio assumenda velit labore.
           </p>
           <p>
-            Pero au9usto, como a él le gusta llamarse (por 2 razones: una porque
-            la &lt;&lt;g&gt;&gt; y el &lt;&lt;9&gt;&gt; son muy parecidos y otra
-            por la numerología, la suma total de los números de su fecha de
-            nacimiento 18/01/1961 es igual a 9), se jubiló y ya no tiene el
-            pulso de un pibe de 34 años.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            quia asperiores impedit ab, libero qui autem dolorem nesciunt natus,
+            repellendus at! Dignissimos veritatis ullam ipsum dicta quam
+            expedita natus sequi! Error sed culpa repellendus earum eveniet.
+            Molestiae dicta laudantium, aliquid iure voluptate laborum
+            voluptatibus consequatur obcaecati necessitatibus deleniti quis sed
+            vel quidem ullam quia est iste eaque suscipit omnis. At.
+            Perspiciatis quo recusandae expedita mollitia itaque ipsum,
+            veritatis et, facilis, unde accusamus autem commodi excepturi non.
+            Consectetur facilis, cupiditate, repudiandae, tempora perferendis
+            ipsam maxime harum minima quis in eius odit.
           </p>
           <p>
-            Así que si quiere expresarse de manera artística tiene que recurrir
-            a estas 2 nuevas herramientas: la inteligencia artificial y la
-            edición digital de la imagen. Y en eso anda…
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos atque
+            nisi quibusdam reiciendis, aliquid cumque exercitationem recusandae
+            commodi at dolor provident omnis sit consequuntur porro, aliquam
+            facilis magni neque beatae. Voluptatum ab vitae, atque, magni neque
+            ipsa, quis earum error amet perspiciatis voluptate vel libero
+            doloribus eos rerum nam quidem aspernatur! Vero, eos molestiae
+            maxime porro illo ad possimus impedit?
           </p>
         </div>
       </div>
