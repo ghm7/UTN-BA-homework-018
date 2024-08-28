@@ -34,7 +34,8 @@
   </div>
 </div>
 <script>
-  console.log(document.cookie); async function callReq() { const req = await
-  fetch("http://localhost:5000/admin", { credentials: "same-origin" }); const
-  res = req.json() };
+  async function edit(id) { const req = await
+  fetch(`http://localhost:5000/admin/edit/${id}`, { headers: { "Content-Type":
+  "application/json; charset=utf-8" }, method: 'PUT', body: JSON.stringify({
+  role: "owner" }) }); };
 </script>

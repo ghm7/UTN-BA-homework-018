@@ -29,5 +29,11 @@ async function isRegistered(user) {
 
   return rows.length > 0;
 }
+// UPDATE `users` SET `role` = 'owner' WHERE `users`.`id` = 6;
+async function updateRole(user, newRole) {
+  const query = `UPDATE users SET role = '${newRole}' WHERE users.id = ${user.id}`;
+  const rows = await pool.query(query);
+  return rows;
+}
 
-module.exports = { getUsers, registerUser };
+module.exports = { getUsers, registerUser, updateRole };

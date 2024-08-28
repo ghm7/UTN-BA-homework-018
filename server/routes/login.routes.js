@@ -23,12 +23,12 @@ router.post('/', async (req, res) => {
       req.session.user = userData.user;
 
       const cookies = req.cookies;
-      console.log(JSON.stringify(cookies).split(`"connect.sid":`));
+      // console.log(JSON.stringify(cookies).split(`"connect.sid":`));
       // res.writeHead(200, {
       //   'Set-Cookie': `token=${cookies}; HttpOnly`,
       //   'Access-Control-Allow-Credentials': 'true',
       // });
-      // res.redirect('/admin');
+      res.redirect('/admin');
     } else {
       res.redirect('/');
     }
