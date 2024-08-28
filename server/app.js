@@ -1,7 +1,8 @@
 const express = require('express');
 const session = require('express-session');
 const morgan = require('morgan');
-const { engine } = require('express-handlebars');
+const cookieParser = require('cookie-parser');
+const ExpressHandlebars = require('express-handlebars');
 const path = require('path');
 const index = require('./routes/index.routes');
 
@@ -10,11 +11,12 @@ const port = 5000;
 
 app.use(morgan('dev'));
 
+app.use(cookieParser());
 app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 } }));
 app.use(express.json());
 app.engine(
   'hbs',
-  engine({
+  ExpressHandlebars.engine({
     extname: '.hbs',
     defaultLayout: 'main',
     layoutsDir: path.join(__dirname, 'views', 'layouts'),

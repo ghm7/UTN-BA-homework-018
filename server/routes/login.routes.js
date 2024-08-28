@@ -1,23 +1,34 @@
 const router = require('express').Router();
 const checkAuth = require('../lib/checkAuth');
-const usersModel = require('../models/usersModel');
+const { getUsers } = require('../models/usersModel');
+
+function findUser(user, find) {
+  return user.filter((item) => item.user === find)[0];
+}
 
 router.get('/', (req, res) => {
   res.render('login', { title: 'Admin Login' });
 });
 
-router.post('/', async function (req, res, next) {
+router.post('/', async (req, res) => {
   try {
     const user = req.body.user;
     const password = req.body.password;
 
-    const data = await usersModel.getUser(user, password);
+    const users = await getUsers(user, password);
 
-    if (data != undefined && checkAuth(data, req.body)) {
-      // res.send(data);
-      req.session.id = data.id;
-      req.session.user = data.user;
-      res.redirect('/admin');
+    if (users != undefined && checkAuth(users, req.body)) {
+      const userData = findUser(users, user);
+      req.session.id = userData.id;
+      req.session.user = userData.user;
+
+      const cookies = req.cookies;
+      console.log(JSON.stringify(cookies).split(`"connect.sid":`));
+      // res.writeHead(200, {
+      //   'Set-Cookie': `token=${cookies}; HttpOnly`,
+      //   'Access-Control-Allow-Credentials': 'true',
+      // });
+      // res.redirect('/admin');
     } else {
       res.redirect('/');
     }
