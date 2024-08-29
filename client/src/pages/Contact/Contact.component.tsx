@@ -8,9 +8,7 @@ import './Contact.styles.css';
 export default function Contact(): ReactElement {
   const form = useRef<HTMLInputElement>(null);
 
-  const sendEmail = (e: Event) => {
-    e.preventDefault();
-
+  const sendEmail = () => {
     emailjs
       // @ts-expect-error Argument of type
       .sendForm('service_lmej4ka', 'template_j0joswx', form.current, {
@@ -24,8 +22,6 @@ export default function Contact(): ReactElement {
           console.log('FAILED...', error.text);
         }
       );
-
-    window.location.href = '/';
   };
 
   return (
@@ -34,9 +30,9 @@ export default function Contact(): ReactElement {
         <form
           // @ts-expect-error ...is not assignable to type...
           ref={form}
-          action="post"
+          action="/"
+          method="get"
           className="w-[400px] flex flex-col gap-6"
-          // @ts-expect-error
           onSubmit={sendEmail}
         >
           <input
