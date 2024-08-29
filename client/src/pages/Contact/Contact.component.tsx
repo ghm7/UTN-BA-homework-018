@@ -24,6 +24,8 @@ export default function Contact(): ReactElement {
           console.log('FAILED...', error.text);
         }
       );
+
+    window.location.href = '/';
   };
 
   return (
