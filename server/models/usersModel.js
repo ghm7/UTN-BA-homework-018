@@ -25,15 +25,22 @@ async function registerUser(user, password) {
 
 async function isRegistered(user) {
   const query = `SELECT user FROM users WHERE user = '${user}'`;
-  const rows = await pool.query(query, [user]);
+  const rows = pool.query(query, [user]);
 
   return rows.length > 0;
 }
 // UPDATE `users` SET `role` = 'owner' WHERE `users`.`id` = 6;
 async function updateRole(user, newRole) {
   const query = `UPDATE users SET role = '${newRole}' WHERE users.id = ${user.id}`;
-  const rows = await pool.query(query);
+  const rows = pool.query(query);
   return rows;
 }
 
-module.exports = { getUsers, registerUser, updateRole };
+// DELETE FROM `users` WHERE `users`.`id` = 6
+async function deleteUser(user) {
+  const query = `DELETE FROM users WHERE users.id = ${user.id}`;
+  const rows = pool.query(query);
+  return rows;
+}
+
+module.exports = { getUsers, registerUser, updateRole, deleteUser };

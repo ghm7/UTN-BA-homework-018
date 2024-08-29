@@ -33,9 +33,60 @@
     </div>
   </div>
 </div>
+
+<div
+  class='p-4 bg-[#242424] rounded-md shadow-md w-80 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden'
+  id="modal"
+>
+  <input
+    type='text'
+    placeholder='Enter text'
+    class='w-full p-2 mb-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
+    id='modal-input'
+  />
+  <div class='flex justify-end space-x-2'>
+    <button
+      class='px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none'
+      onclick="updateUser(currentUserId)"
+    >
+      Save
+    </button>
+    <button
+      class='px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400 focus:outline-none'
+      onclick="cancel()"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
 <script>
-  async function edit(id) { const req = await
-  fetch(`http://localhost:5000/admin/edit/${id}`, { headers: { "Content-Type":
-  "application/json; charset=utf-8" }, method: 'PUT', body: JSON.stringify({
-  role: "owner" }) }); };
+  const div = document.querySelector("#modal"); 
+  const modalInput = document.querySelector("#modal-input"); 
+  let currentUserId = 0;
+
+  function edit(id, role) { 
+    modalInput.value = `${role}`;
+    currentUserId = id;
+    div.classList.toggle("hidden");
+  }; 
+
+  async function updateUser(id) { 
+    const req = await fetch(`http://localhost:5000/admin/edit/${id}`, { 
+      headers: { "Content-Type": "application/json; charset=utf-8" }, 
+      method: 'PUT', 
+      body: JSON.stringify({ role: modalInput.value }) 
+      }); 
+      location.reload()
+    };
+  
+  function cancel() {
+    div.classList.toggle("hidden");
+  };
+
+  async function deleteUser(id) {
+    const req = await fetch(`http://localhost:5000/admin/delete/${id}`, {
+      method: 'DELETE',
+    });
+    location.reload();
+  }
 </script>
